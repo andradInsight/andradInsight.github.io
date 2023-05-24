@@ -2,11 +2,19 @@ body {
     background-color:white;
     color:rgb(128,0,32);
 }
-hr {
+h3 {
+    font-size:3em;
+}
+p {
+    font-size:large;
+}
+#FJTitle {
+    background-color:rgb(128,0,32);
+    color:aliceblue;
+    text-align:center;
+    padding-top:6px;
+    padding-bottom:1em;
+    border-bottom:5px;
     border-color:black;
-    border-width:2px;
-    border-style:double;
-    position:absolute;
-    top:49px;
-    width:100%;
+    border-style:outset;
 }
