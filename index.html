@@ -4,6 +4,35 @@
     <title>Father Jorg Newspaper</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 <style>
+    #dropbox {
+        background-color:darkred;
+        position:absolute;
+        border-width:2px;
+        border-style:solid;
+        width:320px;
+        height:230px;
+        top:300px;
+        z-index:5
+    }
+/*    #rectangle { position:absolute;
+        background-color:blue;
+        overflow-x:hidden;
+        width:99%;
+        height:40em;
+        z-index: 1;
+        opacity:0.78; } */
+    #h {
+        height:100em;
+    }
+//As in "sticky"
+    #sti { 
+        position:sticky; 
+        padding-top:10px; 
+        top:1px; 
+        padding-left:20%;
+        border-style:;
+        border-width:2px;
+    }
 </style>
 </head>
 <body>
@@ -11,9 +40,18 @@
     <h3>Father Jorg<br></h3>
     <p>Our Lord our God</p>
 </div>
-<p>This is sample text</p>
-<p>antoioher</p>
-<a href="page2.html">hhh</a>
+<div id="sti">
+    <p>Mailbox</p>
 
+</div>
+<div>
+    <p>This is sample text</p>
+    <p>antoioher</p>
+    <a href="page2.html">hhh</a> 
+    <hr id="dropbox">
+    <!--<hr id="rectangle">-->
+    <p>whta</p>
+    <hr id="h">
+</div>
 </body>
 </html>

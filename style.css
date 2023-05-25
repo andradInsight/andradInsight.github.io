@@ -1,6 +1,7 @@
 body {
     background-color:white;
     color:rgb(128,0,32);
+    z-index:5;
 }
 h3 {
     font-size:3em;
