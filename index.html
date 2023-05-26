@@ -12,22 +12,30 @@
         background-color:green;
     }
     #dropbox {
+        top:9px;
+    }
+    #dropbox > h4 {
+        color:white;
+        z-index:6;
+    }
+    #dropbox > hr {
         background-color:darkred;
         position:absolute;
         border-width:2px;
         border-style:solid;
         width:320px;
         height:230px;
-        top:300px;
-        z-index:5
+        z-index:5;
     }
-/*    #rectangle { position:absolute;
+    #rectangle { 
+        position:absolute;
         background-color:blue;
         overflow-x:hidden;
         width:99%;
         height:40em;
         z-index: 1;
-        opacity:0.78; } */
+        opacity:0.78;
+     }
     #BGimg {
         top:110px;
         left:0px;
@@ -55,6 +63,9 @@
 </div>
 <!--<hr style="height:300em;">-->
 <img id="BGimg" src="vollyballImg.jpg">
-
+<div id="dropbox">
+    <hr>
+    <h4>What</h4>
+</div>
 </body>
 </html>
