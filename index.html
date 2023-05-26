@@ -4,6 +4,9 @@
     <title>Father Jorg Newspaper</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 <style>
+    #FJTitle {
+        z-index:5;
+    }
     #dropbox {
         background-color:darkred;
         position:absolute;
@@ -21,18 +24,6 @@
         height:40em;
         z-index: 1;
         opacity:0.78; } */
-    #h {
-        height:100em;
-    }
-    /*As in "sticky"*/
-    #sti { 
-        position:sticky; 
-        padding-top:10px; 
-        top:1px; 
-        padding-left:20%;
-        border-style:dotted;
-        border-width:2px;
-    }
     #BGimg {
         top:110px;
         left:0px;
@@ -41,6 +32,11 @@
         z-index:1;
         opacity:50%;
     }
+    .tabs {
+        padding-left:15%;
+        border:2px;
+        
+    }
 </style>
 </head>
 <body>
@@ -48,9 +44,16 @@
     <h3>Father Jorg<br></h3>
     <p>Our Lord our God</p>
 </div>
-<div id="sti">
-    <p>Mailbox</p>
+<!--Sticky-->
+<div style="position:sticky; top:106px;">
+    <p><span class="tabs">Mailbox</span>
+        <span class="tabs">Clubs</span>
+        <span class="tabs">Extra-curriculars</span>
+        <span class="tabs">Account</span>
 
+    </p>
+</div>
+<hr style="height:30em;">
 <img id="BGimg" src="vollyballImg.jpg">
 
 </body>
