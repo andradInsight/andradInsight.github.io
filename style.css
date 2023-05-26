@@ -18,4 +18,6 @@ p {
     border-bottom:5px;
     border-color:black;
     border-style:outset;
+    z-index:5;
+    font-family:serif;
 }
