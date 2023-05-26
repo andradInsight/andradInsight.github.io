@@ -42,3 +42,11 @@ p {
     color:aquamarine;
     background-color:darkviolet;
 }
+#personIcon {
+    position:absolute;
+    left:95%;
+    width:40px;
+}
+#personIcon:hover {
+    background-color:green;
+}
