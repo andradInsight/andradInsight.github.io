@@ -50,3 +50,13 @@ p {
 #personIcon:hover {
     background-color:green;
 }
+#rectan {
+    background-color:red;
+    position:absolute;
+    height:100em;
+    width:100%;
+    z-index:-1;
+    border-style:inset;
+    border-width:1px;
+    border-color:black;
+}
