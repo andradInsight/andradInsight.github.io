@@ -15,7 +15,7 @@ p {
     text-align:center;
     padding-top:6px;
     padding-bottom:1em;
-    margin-bottom:12px;
+    margin-bottom:10px;
     border-bottom:5px;
     border-color:black;
     border-style:outset;
@@ -24,7 +24,7 @@ p {
 }
 .tabs {
     position:sticky;
-    top:106px;
+    top:100px;
     left:20px;
     margin-left:10%;
     padding:3px;
