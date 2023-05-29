@@ -34,6 +34,8 @@ p {
     border-width:2px;
     border-style:dashed;
     top:auto;
+    color:rgb(128,0,32);
+    text-decoration-line:none;
 }
 .tabs:hover {
     color:rgb(223, 42, 42);
