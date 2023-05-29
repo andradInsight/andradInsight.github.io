@@ -23,6 +23,7 @@ p {
     font-family:serif;
 }
 .tabs {
+    background-color:rgb(241, 241, 10);
     position:sticky;
     top:100px;
     left:20px;
