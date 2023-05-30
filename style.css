@@ -2,6 +2,7 @@ body {
     background-color:rgba(241, 241, 10, 0.37);
     color:rgb(128,0,32);
     z-index:5;
+    x-overflow:hidden;
 }
 h3 {
     font-size:3em;
@@ -80,4 +81,12 @@ p {
 }
 #personIcon:hover {
     background-color:green;
+}
+/*Bottom Of Page*/
+#BOP {
+    background-color:darkred;
+    color:white;
+    padding:auto;
+    margin-top:10em;
+    text-align:center;
 }
