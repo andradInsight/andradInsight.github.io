@@ -6,51 +6,56 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <style>
-               body {
-    background-color:rgba(241, 241, 10, 0.37);
-    color:rgb(128,0,32);
-    z-index:5;
-    overflow-x:hidden;
-}
-h3 {
-    font-size:3em;
-}
-p {
-    font-size:large;
-}
-#FJTitle {
-    background-color:rgb(128,0,32);
-    color:aliceblue;
-    text-align:center;
-    padding-top:6px;
-    padding-bottom:1em;
-    margin-bottom:10px;
-    border-bottom:5px;
-    border-color:black;
-    border-style:outset;
-    z-index:5;
-    font-family:serif;
-}
-#dropbox {
-    background-color:darkred;
-    color:white;
-    z-index:6;
-    top:130px;
-    text-align: center;
-    top:calc(initial + 4em);
-    width:240px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:5px;
-    padding-bottom:10px;
-    margin-top:40px;
-    margin-left:1%;
-    margin-bottom:40em;
-    border-color:darkblue;
-    border-style:groove;
-    border-width:1px;
-}
-/*#rectangle { 
+        body {
+            background-color: rgba(241, 241, 10, 0.37);
+            color: rgb(128, 0, 32);
+            z-index: 5;
+            overflow-x: hidden;
+        }
+
+        h3 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        #FJTitle {
+            background-color: rgb(128, 0, 32);
+            color: aliceblue;
+            text-align: center;
+            padding-top: 6px;
+            padding-bottom: 1em;
+            margin-bottom: 10px;
+            border-bottom: 5px;
+            border-color: black;
+            border-style: outset;
+            z-index: 5;
+            font-family: serif;
+        }
+
+        #dropbox {
+            background-color: darkred;
+            color: white;
+            z-index: 6;
+            top: 130px;
+            text-align: center;
+            top: calc(initial + 4em);
+            width: 240px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-left: 1%;
+            margin-bottom: 40em;
+            border-color: darkblue;
+            border-style: groove;
+            border-width: 1px;
+        }
+
+        /*#rectangle { 
     position:absolute;
     background-color:blue;
     overflow-x:hidden;
@@ -59,58 +64,50 @@ p {
     z-index: 1;
     opacity:0.78;
 }*/
-.tabs {
-    background-color:rgb(241, 241, 10);
-    position:sticky;
-    top:100px;
-    left:20px;
-    margin-left:10%;
-    padding:3px;
-    padding-left:1em;
-    padding-right:1em;
-    border-width:2px;
-    border-style:dashed;
-    top:auto;
-    color:rgb(128,0,32);
-    text-decoration-line:none;
-}
-.tabs:hover {
-    color:rgb(223, 42, 42);
-    background-color:coral;
-}
-.tabs:active {
-    color:aquamarine;
-    background-color:darkviolet;
-}
-#personIcon {
-    position:absolute;
-    left:97%;
-    width:40px;
-}
-#personIcon:hover {
-    background-color:green;
-}
-/*Bottom Of Page*/
-#BOP {
-    background-color:darkred;
-    color:white;
-    padding:auto;
-    margin-top:10em;
-    text-align:center;
-}
-        /*change*/
-        #FJTitle {
-            margin-bottom: 2em;
+        .tabs {
+            background-color: rgb(241, 241, 10);
+            position: sticky;
+            top: 100px;
+            left: 20px;
+            margin-left: 10%;
+            padding: 3px;
+            padding-left: 1em;
+            padding-right: 1em;
+            border-width: 2px;
+            border-style: dashed;
+            top: auto;
+            color: rgb(128, 0, 32);
+            text-decoration-line: none;
         }
 
-        #paragraph {
-            background-color:greenyellow;
-            font-size: 2em;
-            width:240px;
-            height:7em;
-            overflow-x:scroll;
+        .tabs:hover {
+            color: rgb(223, 42, 42);
+            background-color: coral;
         }
 
+        .tabs:active {
+            color: aquamarine;
+            background-color: darkviolet;
+        }
+
+        #personIcon {
+            position: absolute;
+            left: 97%;
+            width: 40px;
+        }
+
+        #personIcon:hover {
+            background-color: green;
+        }
+
+        /*Bottom Of Page*/
+        #BOP {
+            background-color: darkred;
+            color: white;
+            padding: auto;
+            margin-top: 10em;
+            text-align: center;
+        }
         #backToPg {
             position: absolute;
             background-color: rgb(53, 53, 70);
@@ -119,7 +116,18 @@ p {
             top: 0px;
             left: 0px;
         }
+        /*change*/
+        #FJTitle {
+            margin-bottom: 2em;
+        }
 
+        #paragraph {
+            background-color: greenyellow;
+            font-size: 2em;
+            width: 240px;
+            height: 7em;
+            overflow-x: scroll;
+        }
         /*Fk this extention cant work properly piece of sh*/
         #dropbox {
             position: absolute;
@@ -141,13 +149,14 @@ p {
             position: absolute;
             font-size: 2em;
             top: 460px;
-            margin:2px;
+            margin: 2px;
         }
+
         #bigLettering {
-            font-size:2.3em;
-            position:relative;
-            left:235px;
-            float:left;
+            font-size: 2.3em;
+            position: relative;
+            left: 235px;
+            float: left;
         }
     </style>
 </head>
@@ -174,8 +183,8 @@ p {
             virtues for years to come!
         </p>
     </div>
-<p id="bigLettering">"The only failures are those who fail to try"
-    <br>-Lester B. Pearson
+    <p id="bigLettering">"The only failures are those who fail to try"
+        <br>-Lester B. Pearson
     </p>
 
 
