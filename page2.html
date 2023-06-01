@@ -1,65 +1,172 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Father Jorg Page 2</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
-<style>
-    #FJTitle {
-        margin-bottom:2em;
-    }
-    #paragraph {
-        font-size:1.7em;
-    }
-    #backToPg {
-        position:absolute;
-        background-color:rgb(53, 53, 70);
-        color:rgba(126, 126, 223, 0.623);
-        text-decoration-line: none;
-        top:0px;
-        left:0px;
-    } /*Fk this extention cant work properly piece of sh*/
-    #dropbox {
-        position:absolute;
-        top:230px;
-        left:70%;
-        width:25%;
-        padding-top:20px;
-        padding-bottom:20px;
-    }
-    #leafPic {
-        width:224px;
-        position:absolute;
-        top:230px;
-    }
-    #paragraph {
-        word-wrap:break-word;
-        position:relative;
-        font-size:2em;
-        top:207px;
-    }
-    /*Change*/
-</style>
+    <style>
+               body {
+    background-color:rgba(241, 241, 10, 0.37);
+    color:rgb(128,0,32);
+    z-index:5;
+    overflow-x:hidden;
+}
+h3 {
+    font-size:3em;
+}
+p {
+    font-size:large;
+}
+#FJTitle {
+    background-color:rgb(128,0,32);
+    color:aliceblue;
+    text-align:center;
+    padding-top:6px;
+    padding-bottom:1em;
+    margin-bottom:10px;
+    border-bottom:5px;
+    border-color:black;
+    border-style:outset;
+    z-index:5;
+    font-family:serif;
+}
+#dropbox {
+    background-color:darkred;
+    color:white;
+    z-index:6;
+    top:130px;
+    text-align: center;
+    top:calc(initial + 4em);
+    width:240px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:10px;
+    margin-top:40px;
+    margin-left:1%;
+    margin-bottom:40em;
+    border-color:darkblue;
+    border-style:groove;
+    border-width:1px;
+}
+/*#rectangle { 
+    position:absolute;
+    background-color:blue;
+    overflow-x:hidden;
+    width:99%;
+    height:40em;
+    z-index: 1;
+    opacity:0.78;
+}*/
+.tabs {
+    background-color:rgb(241, 241, 10);
+    position:sticky;
+    top:100px;
+    left:20px;
+    margin-left:10%;
+    padding:3px;
+    padding-left:1em;
+    padding-right:1em;
+    border-width:2px;
+    border-style:dashed;
+    top:auto;
+    color:rgb(128,0,32);
+    text-decoration-line:none;
+}
+.tabs:hover {
+    color:rgb(223, 42, 42);
+    background-color:coral;
+}
+.tabs:active {
+    color:aquamarine;
+    background-color:darkviolet;
+}
+#personIcon {
+    position:absolute;
+    left:97%;
+    width:40px;
+}
+#personIcon:hover {
+    background-color:green;
+}
+/*Bottom Of Page*/
+#BOP {
+    background-color:darkred;
+    color:white;
+    padding:auto;
+    margin-top:10em;
+    text-align:center;
+}
+        /*change*/
+        #FJTitle {
+            margin-bottom: 2em;
+        }
+
+        #paragraph {
+            background-color:greenyellow;
+            font-size: 2em;
+            width:240px;
+            height:6em;
+            overflow-x:scroll;
+        }
+
+        #backToPg {
+            position: absolute;
+            background-color: rgb(53, 53, 70);
+            color: rgba(126, 126, 223, 0.623);
+            text-decoration-line: none;
+            top: 0px;
+            left: 0px;
+        }
+
+        /*Fk this extention cant work properly piece of sh*/
+        #dropbox {
+            position: absolute;
+            top: 230px;
+            left: 70%;
+            width: 25%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #leafPic {
+            width: 224px;
+            position: absolute;
+            top: 230px;
+        }
+
+        #paragraph {
+            word-wrap: break-word;
+            position: relative;
+            font-size: 2em;
+            top: 207px;
+        }
+    </style>
 </head>
+
 <body>
     <img id="leafPic" src="Pictures/1024px-Maple_Leaf.svg.png">
-<a id="backToPg" href="index.html">Back to page</a>
+    <a id="backToPg" href="index.html">Back to page</a>
 
-<div id="FJTitle">
-    <h3>Volleyball<br></h3>
-    <p>Father Jorg</p>
-</div>
-<p id="dropbox">Congrats to Father Jorg's volleyball team of '23 for winning their match: 3-2 against Canada Sports's Volleyball Team!</p>
-<!--Congrats on my lack of knowledge about volleyball's point system-->
-<!--Facts-->
-<div id="paragraph">
-    <a href="https://volleyball.ca/" style="font-size:20px;">See us here!</a>
-    <p>Father Jorg is one of the leading high schools for volleyball in the entire country, winning multiple tournaments for the past decade, expecially the 2014 Provincial High School Cup,
-        the 2017 Boy's Volleyball Tournament, and the 2020 Girl's Volleyball League. 
-        With compliments to Jorge, Liam, Peter, Gerrie, and Ray, for demonstrating 
-        excellent teamwork and preserverance in these games. We hope to witness these
-        virtues for years to come!
-    </p>
-</div>
+    <div id="FJTitle">
+        <h3>Volleyball<br></h3>
+        <p>Father Jorg</p>
+    </div>
+    <p id="dropbox">Congrats to Father Jorg's volleyball team of '23 for winning their match: 3-2 against Canada
+        Sports's Volleyball Team!</p>
+    <!--Congrats on my lack of knowledge about volleyball's point system-->
+    <!--Facts-->
+    <div id="paragraph">
+        <a href="https://volleyball.ca/" style="font-size:20px;">See us here!</a>
+        <p>Father Jorg is one of the leading high schools for volleyball in the entire country, winning multiple
+            tournaments for the past decade, expecially the 2014 Provincial High School Cup,
+            the 2017 Boy's Volleyball Tournament, and the 2020 Girl's Volleyball League.
+            With compliments to Jorge, Liam, Peter, Gerrie, and Ray, for demonstrating
+            excellent teamwork and preserverance in these games. We hope to witness these
+            virtues for years to come!
+        </p>
+    </div>
 </body>
+
 </html>
