@@ -86,9 +86,10 @@ p {
 .fourTab {
     background-color:dodgerblue;
     color:khaki;
-    padding:10px;
-    padding-left:24px;
-    padding-right:24px;
+    font-size:22px;;
+    padding:20px;
+    padding-left:29px;
+    padding-right:29px;
     margin-left:3px;
     margin-right:3px;
 }
