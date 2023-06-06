@@ -40,7 +40,7 @@ p {
     padding-bottom:10px;
     margin-top:40px;
     margin-left:1%;
-    margin-bottom:40em;
+    margin-bottom:1em;
     border-color:darkblue;
     border-style:groove;
     border-width:1px;
@@ -76,6 +76,21 @@ p {
 .tabs:active {
     color:aquamarine;
     background-color:darkviolet;
+}
+#FT {
+    background-color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:100px;
+    margin-bottom:40em;
+}
+.fourTab {
+    background-color:dodgerblue;
+    padding:10px;
+    padding-left:24px;
+    padding-right:24px;
+    margin-left:3px;
+    margin-right:3px;
 }
 #personIcon {
     position:absolute;
