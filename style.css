@@ -1,50 +1,55 @@
 body {
-    background-color:rgba(241, 241, 10, 0.37);
-    color:rgb(128,0,32);
-    z-index:5;
-    overflow-x:hidden;
+    background-color: rgba(241, 241, 10, 0.37);
+    color: rgb(128, 0, 32);
+    z-index: 5;
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
+
 h3 {
-    font-size:3em;
+    font-size: 3em;
 }
+
 p {
-    font-size:large;
+    font-size: large;
 }
+
 #FJTitle {
-    background-color:rgb(128,0,32);
-    color:aliceblue;
-    text-align:center;
-    padding-top:6px;
-    padding-bottom:1em;
-    margin:0;
-    margin-bottom:10px;
-    border-bottom:5px;
-    border-color:black;
-    border-style:outset;
-    z-index:5;
-    font-family:serif;
-}
-#dropbox {
-    background-color:darkred;
-    color:white;
-    z-index:6;
-    top:130px;
+    background-color: rgb(128, 0, 32);
+    color: aliceblue;
     text-align: center;
-    top:calc(initial + 4em);
-    width:240px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:5px;
-    padding-bottom:10px;
-    margin-top:40px;
-    margin-left:1%;
-    margin-bottom:1em;
-    border-color:darkblue;
-    border-style:groove;
-    border-width:1px;
+    padding-top: 6px;
+    padding-bottom: 1em;
+    margin: 0;
+    margin-bottom: 10px;
+    border-bottom: 5px;
+    border-color: black;
+    border-style: outset;
+    z-index: 5;
+    font-family: serif;
 }
+
+#dropbox {
+    background-color: darkred;
+    color: white;
+    z-index: 6;
+    top: 130px;
+    text-align: center;
+    top: calc(initial + 4em);
+    width: 240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 1%;
+    margin-bottom: 1em;
+    border-color: darkblue;
+    border-style: groove;
+    border-width: 1px;
+}
+
 /*#rectangle { 
     position:absolute;
     background-color:blue;
@@ -55,65 +60,74 @@ p {
     opacity:0.78;
 }*/
 .tabs {
-    background-color:rgb(241, 241, 10);
-    position:sticky;
-    top:100px;
-    left:20px;
-    margin-left:7%;
-    padding:3px;
-    padding-left:1em;
-    padding-right:1em;
-    border-width:2px;
-    border-style:dashed;
-    top:auto;
-    color:rgb(128,0,32);
-    text-decoration-line:none;
+    background-color: rgb(241, 241, 10);
+    position: sticky;
+    top: 100px;
+    left: 20px;
+    margin-left: 7%;
+    padding: 3px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-width: 2px;
+    border-style: dashed;
+    top: auto;
+    color: rgb(128, 0, 32);
+    text-decoration-line: none;
 }
+
 .tabs:hover {
-    color:rgb(223, 42, 42);
-    background-color:coral;
+    color: rgb(223, 42, 42);
+    background-color: coral;
 }
+
 .tabs:active {
-    color:aquamarine;
-    background-color:darkviolet;
+    color: aquamarine;
+    background-color: darkviolet;
 }
+
 #FT {
-    background-color:white;
-    text-align:center;
-    padding:1px;
-    margin-top:50px;
-    margin-bottom:40em;
+    background-color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 50px;
+    margin-bottom: 40em;
 }
+
 .fourTab {
-    background-color:dodgerblue;
-    color:khaki;
-    font-size:22px;;
-    padding:20px;
-    padding-left:29px;
-    padding-right:29px;
-    margin-left:3px;
-    margin-right:3px;
+    background-color: dodgerblue;
+    color: khaki;
+    font-size: 22px;
+    ;
+    padding: 20px;
+    padding-left: 29px;
+    padding-right: 29px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
+
 #personIcon {
-    position:absolute;
-    left:97%;
-    width:40px;
+    position: absolute;
+    left: 97%;
+    width: 40px;
 }
+
 #personIcon:hover {
-    background-color:green;
+    background-color: green;
 }
+
 /*Bottom Of Page*/
 #BOP {
     line-height: 40px;
-    background-color:darkred;
-    color:white;
-    text-align:center;
-    padding:auto;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: auto;
     padding-bottom: 1em;
     padding-left: 0;
     padding-right: 0;
-    margin-top:10em;
+    margin-top: 10em;
 }
+
 #backToPg {
     position: absolute;
     background-color: rgb(53, 53, 70);
@@ -122,6 +136,7 @@ p {
     top: 0px;
     left: 0px;
 }
+
 /*page2*/
 #leafPic {
     width: 224px;
@@ -178,6 +193,7 @@ p {
     color: rgb(71, 71, 187);
     text-decoration-line: underline;
 }
+
 /*page 3*/
 #IP>p {
     font-size: 2em;
