@@ -206,6 +206,9 @@ p {
     color: rgb(71, 71, 187);
     text-decoration-line: underline;
 }
+#fakeLink {
+    color: rgb(25, 25, 63);
+}
 
 /*page 3*/
 #IP>p {
