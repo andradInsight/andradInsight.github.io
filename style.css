@@ -5,16 +5,12 @@ body {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
+    font-size:20px;
 }
 
 h3 {
     font-size: 3em;
 }
-
-p {
-    font-size: large;
-}
-
 #FJTitle {
     background-color: rgb(128, 0, 32);
     color: aliceblue;
