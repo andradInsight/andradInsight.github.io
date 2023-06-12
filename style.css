@@ -10,7 +10,7 @@ body {
 h3 {
     font-size: 3em;
 }
-#FJTitle {
+.FJTitle {
     background-color: rgb(128, 0, 32);
     color: aliceblue;
     text-align: center;
@@ -276,6 +276,8 @@ page2 HERE
     height:100%;
     width:240px;
     z-index:-1;
+    padding-top:1em;
+    border-width:0px;
 }
 #dropboxPg2 {
     font-size:20px;
