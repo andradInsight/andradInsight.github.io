@@ -274,8 +274,8 @@ page2 HERE
     background-color:rgb(231, 157, 152);
     position:fixed;
     height:100%;
-    width:240px;
-    z-index:-1;
+    width:250px;
+    z-index:-1
     padding-top:1em;
     border-width:0px;
 }
