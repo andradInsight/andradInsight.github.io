@@ -7,7 +7,6 @@ body {
     margin: 0;
     font-size:20px;
 }
-
 h3 {
     font-size: 3em;
 }
@@ -26,7 +25,7 @@ h3 {
     font-family: serif;
 }
 
-#dropbox {
+.dropbox {
     background-color: darkred;
     color: white;
     z-index: 6;
@@ -165,7 +164,9 @@ h3 {
     height: 285px;
     padding-left: 7px;
 }
-
+.para {
+    font-size:25px;
+}
 #bigLettering {
     font-size: 1em;
     position: relative;
@@ -205,8 +206,71 @@ h3 {
 #fakeLink {
     color: rgb(25, 25, 63);
 }
+#BGimg {
+    top: 110px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+    opacity: 50%;
+}
 
+#list {
+    margin-top: 10px;
+    background-color: rgb(208, 236, 192);
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+#list>li {
+    font-weight: bold;
+}
+
+#list>p {
+    text-indent: 10px;
+}
+
+#curEv {
+    font-weight: normal;
+    text-decoration-line: underline;
+    font-style: oblique;
+}
+
+#buMore {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 1000;
+    font-style: oblique;
+    color: grey;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#buMore:hover {
+    background-color: blue;
+    color: white;
+}
+
+#buMore:active {
+    background-color: rgb(127, 127, 238);
+    color: darkkhaki;
+}
+
+#backToPg {
+    position: absolute;
+    background-color: rgb(53, 53, 70);
+    color: rgba(126, 126, 223, 0.623);
+    text-decoration-line: none;
+    top: 0px;
+    left: 0px;
+}
+#htcu {
+    text-decoration-line:underline;
+}
 /*page 3*/
+pp3 {
+    font-size:1.5em;
+}
 #IP>p {
     font-size: 2em;
     background-color: white;

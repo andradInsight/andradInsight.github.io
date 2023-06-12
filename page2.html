@@ -6,10 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         /*change*/
-        body {
-            background-color: lightgoldenrodyellow;
-            font-size:30px;
-        }
+      
         #FJTitle {
             font-size:17px;
             margin-bottom: 2em;
@@ -24,12 +21,16 @@
             padding-top: 20px;
             padding-bottom: 20px;
         }
-        #paragraph {
-            font-size:25px;
+        #boxLeftVolley {
+            position:fixed;
+            height:100%;
+            width:240px;
+            z-index:-1;
         }
     </style>
 </head>
-<body>
+<body id="bodyPage2">
+    <hr id="boxLeftVolley">
     <img id="leafPic" src="Pictures/1024px-Maple_Leaf.svg.png">
     <a id="backToPg" href="index.html">Back to page</a>
 
@@ -37,11 +38,11 @@
         <h3>Volleyball<br></h3>
         <p>Father Jorg</p>
     </div>
-    <p id="dropbox">Congrats to Father Jorg's Volleyball Team of '23 for winning their match: 3-2 against Canada
+    <p class="dropbox">Congrats to Father Jorg's Volleyball Team of '23 for winning their match: 3-2 against Canada
         Sports's Volleyball Team!</p>
     <!--Congrats on my lack of knowledge about volleyball's point system-->
     <!--Facts-->
-    <div id="paragraph">
+    <div id="paragraph" class="para">
         <a href="https://volleyball.ca/" style="font-size:20px;">See us here!</a>
         <p>Father Jorg is one of the leading high schools for volleyball in the entire country, winning multiple
             tournaments for the past decade, expecially the 2014 Provincial High School Cup,
@@ -72,7 +73,7 @@
             <li>Opportunity to represent Father Jorg</li>
         </ul>
         <br><br><br>
-        <p style="text-decoration-line: underline;">How to contact us: <br></p>
+        <p id="htcu">How to contact us: <br></p>
         <!--Mr Petriangelo-->
         <p>
             Email <strong>Mr. Petri</strong> <br>
