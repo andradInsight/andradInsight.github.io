@@ -5,11 +5,13 @@ body {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
-    font-size:20px;
+    font-size: 20px;
 }
+
 h3 {
     font-size: 3em;
 }
+
 .FJTitle {
     background-color: rgb(128, 0, 32);
     color: aliceblue;
@@ -131,19 +133,23 @@ h3 {
     top: 0px;
     left: 0px;
 }
+
 .fourTab:hover {
-    background-color:rgb(85, 149, 202);
-    color:indigo;
-    margin-left:5px;
-    margin-right:5px;
+    background-color: rgb(85, 149, 202);
+    color: indigo;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
 .fourTab:active {
-    background-color:rgb(76, 132, 179);
-    color:black;
+    background-color: rgb(76, 132, 179);
+    color: black;
 }
+
 .BOPclb:hover {
-    color:rgb(253, 208, 150);
+    color: rgb(253, 208, 150);
 }
+
 /*
 page2 HERE
 */
@@ -166,9 +172,11 @@ page2 HERE
     height: 285px;
     padding-left: 7px;
 }
+
 .para {
-    font-size:25px;
+    font-size: 25px;
 }
+
 #bigLettering {
     font-size: 1em;
     position: relative;
@@ -188,7 +196,7 @@ page2 HERE
 
 #infoVB {
     background-color: rgb(201, 111, 84);
-    font-size:30px;
+    font-size: 30px;
     color: maroon;
     position: absolute;
     top: 660px;
@@ -205,9 +213,11 @@ page2 HERE
     color: rgb(71, 71, 187);
     text-decoration-line: underline;
 }
+
 #fakeLink {
     color: rgb(25, 25, 63);
 }
+
 #BGimg {
     top: 110px;
     left: 0px;
@@ -266,21 +276,24 @@ page2 HERE
     top: 0px;
     left: 0px;
 }
+
 #htcu {
-    text-decoration-line:underline;
+    text-decoration-line: underline;
 }
+
 /*Left fixed box on Volleyball page(Page 2)*/
 #boxLeftVolley {
-    background-color:rgb(231, 157, 152);
-    position:fixed;
-    height:100%;
-    width:250px;
-    z-index:-1
+    background-color: rgb(231, 157, 152);
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    z-index: -1;
     padding-top:1em;
-    border-width:0px;
+    border-width: 0px;
 }
+
 #dropboxPg2 {
-    font-size:20px;
+    font-size: 20px;
     position: absolute;
     top: 330px;
     left: 70%;
@@ -288,10 +301,12 @@ page2 HERE
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 /*page 3*/
 pp3 {
-    font-size:1.5em;
+    font-size: 1.5em;
 }
+
 #IP>p {
     font-size: 2em;
     background-color: white;
@@ -325,7 +340,14 @@ pp3 {
     margin-left: 7px;
     margin: 10px;
 }
-#dvde{
-    padding:1px;
-    margin:1px;
+
+#dvde {
+    padding: 1px;
+    margin: 1px;
+}
+#firstPVB {
+    position:absolute;
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%
 }
