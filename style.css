@@ -144,7 +144,9 @@ h3 {
 .BOPclb:hover {
     color:rgb(253, 208, 150);
 }
-/*page2*/
+/*
+page2 HERE
+*/
 #leafPic {
     width: 224px;
     position: absolute;
@@ -266,6 +268,23 @@ h3 {
 }
 #htcu {
     text-decoration-line:underline;
+}
+/*Left fixed box on Volleyball page(Page 2)*/
+#boxLeftVolley {
+    background-color:rgb(231, 157, 152);
+    position:fixed;
+    height:100%;
+    width:240px;
+    z-index:-1;
+}
+#dropboxPg2 {
+    font-size:20px;
+    position: absolute;
+    top: 330px;
+    left: 70%;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /*page 3*/
 pp3 {
