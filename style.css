@@ -327,14 +327,15 @@ pp3 {
     border-style: double;
     border-color: blue;
     padding: 1px;
-    padding-left:5%;
     margin: 10px;
+    margin-left:5%;
 }
 
 #infoMath {
     text-align: right;
     margin-top: 100px;
     margin-bottom: 500px;
+    margin-right:5%;
 }
 
 #melnik {
@@ -343,15 +344,16 @@ pp3 {
     border-style: dotted;
     border-color: blueviolet;
     border-width: 2px;
-    margin-left: 7px;
     margin: 10px;
+    margin-left: 7px;
+    margin-right:5%;
 }
 
 #dvde {
     width:100%;
     padding: 1px;
-    padding-right:5%;
     margin: 1px;
+    margin-left:5%;
 }
 #firstPVB {
     position:relative;
