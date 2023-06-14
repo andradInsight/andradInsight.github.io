@@ -352,7 +352,7 @@ pp3 {
     margin: 1px;
 }
 #firstPVB {
-    position:absolute;
+    position:relative;
     text-align:center;
     margin-left:10%;
     margin-right:10%
