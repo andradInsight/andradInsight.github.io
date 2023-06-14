@@ -327,6 +327,7 @@ pp3 {
     border-style: double;
     border-color: blue;
     padding: 1px;
+    padding-left:5%;
     margin: 10px;
 }
 
@@ -349,6 +350,7 @@ pp3 {
 #dvde {
     width:100%;
     padding: 1px;
+    padding-right:5%;
     margin: 1px;
 }
 #firstPVB {
