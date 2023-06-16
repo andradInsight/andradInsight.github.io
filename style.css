@@ -399,5 +399,7 @@ pp3 {
     background-color:rgb(241, 252, 202);
     position: absolute;
     left: calc(5% + 200px);
-    width: calc(100% - 10% - 220px);
+    width: calc(100% - 20% - 220px);
+    padding-left:5%;
+    padding-right:5%;
 }
