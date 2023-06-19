@@ -403,3 +403,14 @@ pp3 {
     padding-left:5%;
     padding-right:5%;
 }
+
+.APTableBorders {
+    background-color:burlywood;
+    padding-left:5px;
+    padding-right:5px;
+    border-style:solid;
+    border-width:1px;
+}
+.APTableBorders th {
+    background-color:yellow;
+}
