@@ -114,11 +114,15 @@ h3 {
 }
 
 /*Bottom Of Page*/
-#BOP {
+.BOP {
+    overflow-x:hidden;
     line-height: 40px;
     background-color: darkred;
+    position:absolute;
+    top:2000px;
+    width:100%;
     color: white;
-    text-align: center;
+    text-align:center;
     padding: auto;
     padding-bottom: 1em;
     padding-left: 0;
@@ -402,10 +406,12 @@ pp3 {
     width: calc(100% - 20% - 220px);
     padding-left:5%;
     padding-right:5%;
+    padding-bottom:2em;
 }
 
 .APTableBorders {
     background-color:burlywood;
+    float:center;    
     margin-left:5px;
     margin-right:5px;
     border-style:solid;
