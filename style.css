@@ -218,12 +218,15 @@ page2 HERE
     border-color: azure
 }
 
-#fakeLink {
+.tabs:active {
     color: rgb(71, 71, 187);
     text-decoration-line: underline;
 }
 
-#fakeLink {
+.fakeLink:active {
+    color:blue;
+}
+.fakeLink {
     color: rgb(25, 25, 63);
 }
 
